@@ -1,0 +1,9 @@
+.card-container {
+    position: relative;
+    z-index: 0;
+}
+
+.no-padding-col {
+    padding-left: 0;
+    padding-right: 0;
+}

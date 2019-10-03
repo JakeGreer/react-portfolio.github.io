@@ -1,0 +1,83 @@
+/* .App {
+  text-align: center;
+} */
+
+/*
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 550ms ease-in;
+
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 550ms ease-out;
+}
+
+*/
+
+#brandLogo {
+  max-height: 35px;
+}
+
+
+.SlideIn-appear {
+  transform: translateY(-100vh);
+}
+.SlideIn-appear.SlideIn-appear-active {
+  transform: translateY(0vh);
+  transition: all 0.5s linear;
+}
+.SlideIn-enter {
+    transform: translateY(0vh);
+}
+.SlideIn-enter.SlideIn-enter-active {
+    transform: translateY(0);
+    transition: all 0.3s linear;
+}
+.SlideIn-leave {
+    transform: translateY(100vh);
+}
+.SlideIn-leave.SlideIn-leave-active {
+    transform: translateY(100vh);
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+
+.fadeTranslate-enter {
+  transform: translate(0, -100vh);
+}
+
+.fadeTranslate-enter.fadeTranslate-enter-active {
+  transform: translate(0, 0);
+  transition: opacity 500ms ease-in 500ms, transform 500ms ease-in-out 500ms;
+}
+
+.fadeTranslate-exit {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.fadeTranslate-exit.fadeTranslate-exit-active {
+  transform: translate(0, 100vh);
+  transition: opacity 300ms ease-in, transform 300ms ease-in-out;
+}
+
+.fix-container {
+  position: fixed;
+}
+
+hr {
+  border-top: 1px solid rgba(255,255,254,.1);
+}

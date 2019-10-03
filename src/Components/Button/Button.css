@@ -1,0 +1,36 @@
+/* .btn-custom {
+    border-radius: 0;
+    padding: 10px;
+    background: linear-gradient(to right, #197db1 50%, #343a40 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    color: #fff;
+} */
+
+/* .active-link {
+    background-position:left bottom;
+    transition:all 0.5s ease;
+    -webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+} */
+
+.btn-custom {
+    padding: 10px;
+    border-radius: 0;
+    background: #fff;
+    color: #000;
+    margin: 0 50px;
+    font-size: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    text-transform: uppercase;
+}
+
+.active-link {
+    background: #197db1;
+    color: #fff;
+}
+
+.btn-custom:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
